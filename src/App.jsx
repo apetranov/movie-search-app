@@ -10,7 +10,7 @@ function App() {
 
   let API_KEY = import.meta.env.VITE_API_KEY
 
-  let URL = `http://www.omdbapi.com/?apikey=${API_KEY}&`
+  let URL = `https://www.omdbapi.com/?apikey=${API_KEY}&`
 
 
   const fetchMovie = async () => {
